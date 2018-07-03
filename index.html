@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title></title>
+    <style>
+    picture{
+      display:flex;
+      /* align-items:center; */
+      justify-content:center;
+    }
+    </style>
+  </head>
+  <body>
+    <center>IMAGES<br><p>Resize the browser to see different versions of the picture loading at different viewport sizes.</p></center>
+     <picture>
+     <source srcset="images/kitten-large.png" media="(min-width:769px)">
+    <source srcset="images/kitten-medium.png" media="(min-width:481px)">
+     <img src="images/kitten-small.png" alt="kitten-small">
+ </picture>
+  </body>
+</html>
